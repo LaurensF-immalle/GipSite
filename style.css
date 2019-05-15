@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Source+Sans+Pro');
+
+
+
+.bodystyle{
+    background: url("WebSitePicture.png") no-repeat;
+    background-size: cover;
+}
+
+.ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.ul .li
+{
+    float: left;
+    background: black;
+    width: 400px;
+    height: 60px;
+    opacity: 0.75;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-right: 2px;
+}
+
+.ul .li .a
+{
+    text-decoration:none;
+    color: white;
+    display: block;
+}
+
+.ul .li:hover
+{
+    background-color: gray;
+    
+}
+
+.ul .li .ul .li
+{
+    display: none;
+}
+
+.ul .li:hover .ul .li{
+    display: block;
+}
+
+.Images{
+    padding: 20px;
+    
+}
+
+.imageul{
+    list-style: none;
+}
+
+.imageul .imageli{
+    text-align: center;
+}
+
+.ImageText
+{
+    color: black;
+    text-decoration: none;
+}
