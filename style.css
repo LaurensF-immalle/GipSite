@@ -5,14 +5,13 @@
 .bodystyle{
     background: url("WebSitePicture.png") no-repeat;
     background-size: cover;
+    
 }
 
 .ul
 {
-    margin: 0px;
     padding: 0px;
     list-style: none;
-    
 }
 
 .ul .li
@@ -33,6 +32,9 @@
     text-decoration:none;
     color: white;
     display: block;
+    width: 400px;
+    height: 60px;
+    text-align: center;
 }
 
 .ul .li:hover
@@ -57,6 +59,7 @@
 
 .imageul{
     list-style: none;
+
 }
 
 .imageul .imageli{
