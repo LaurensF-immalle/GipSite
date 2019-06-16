@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous|Source+Sans+Pro');
 
-
-
 .bodystyle{
     background: url("WebSitePicture.png") no-repeat;
     background-size: cover;
-    
 }
 
 .ul
@@ -49,7 +46,7 @@
 }
 
 .ul .li:hover .ul .li{
-    display: block;
+    display:block;
 }
 
 .Images{
