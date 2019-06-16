@@ -351,6 +351,15 @@ aside {
   }
 }
 
+.ytp-cued-thumbnail-overlay-image {
+  -webkit-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
